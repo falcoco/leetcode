@@ -73,6 +73,9 @@ class Solution {
     int L = 32;
     int R = 69;
 
-    System.out.println(numSubarrayBoundedMax(A, L, R));
+    long beginTimestamp = System.nanoTime();
+    int count = numSubarrayBoundedMax(A, L, R);
+    long endTimestamp = System.nanoTime();
+    System.out.println("The number of subarrays is :" + count +" and it cost "+ String.valueOf(endTimestamp-beginTimestamp) + " nanoTimes");
   }
 }
