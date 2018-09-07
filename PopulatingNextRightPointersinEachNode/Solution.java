@@ -57,8 +57,10 @@ public class Solution {
     TreeLinkNode rightChild = root.right;
     // target: get next right node
     if (leftChild != null && rightChild != null){
+
       // create connection in the same level
       leftChild.next = rightChild;
+
       // create connnection between two adjacent leaves which are not children of one root
       if (leftChild.right != null && rightChild.left != null){
         leftChild.right.next = rightChild.left;
