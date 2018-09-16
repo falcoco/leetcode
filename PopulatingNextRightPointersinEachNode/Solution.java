@@ -61,7 +61,7 @@ public class Solution {
       // create connection in the same level
       leftChild.next = rightChild;
 
-      // create connnection between two adjacent leaves which are not children of one root
+      // create connection between two adjacent leaves that are not brother
       if (leftChild.right != null && rightChild.left != null){
         leftChild.right.next = rightChild.left;
       }
