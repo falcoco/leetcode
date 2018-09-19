@@ -1,5 +1,7 @@
 package AddTwoNumbers;
 
+import utils.ListNode;
+
 //2. Add Two Numbers
 //    Average Rating: 4.65 (390 votes)
 //
@@ -121,18 +123,18 @@ class AddTwoNumbers {
   }
 
   public static void main(String[] args) {
-//        AddTwoNumbers.ListNode l1 = new AddTwoNumbers.ListNode(2);
-//        AddTwoNumbers.ListNode l1Cursor = l1;
-//        l1Cursor.next = new AddTwoNumbers.ListNode(4);
+//        utils.ListNode l1 = new utils.ListNode(2);
+//        utils.ListNode l1Cursor = l1;
+//        l1Cursor.next = new utils.ListNode(4);
 //        l1Cursor = l1Cursor.next;
-//        l1Cursor.next = new AddTwoNumbers.ListNode(3);
+//        l1Cursor.next = new utils.ListNode(3);
 //        l1Cursor = l1Cursor.next;
 //
-//        AddTwoNumbers.ListNode l2 = new AddTwoNumbers.ListNode(5);
-//        AddTwoNumbers.ListNode l2Cursor = l2;
-//        l2Cursor.next = new AddTwoNumbers.ListNode(6);
+//        utils.ListNode l2 = new utils.ListNode(5);
+//        utils.ListNode l2Cursor = l2;
+//        l2Cursor.next = new utils.ListNode(6);
 //        l2Cursor = l2Cursor.next;
-//        l2Cursor.next = new AddTwoNumbers.ListNode(4);
+//        l2Cursor.next = new utils.ListNode(4);
 //        l2Cursor = l2Cursor.next;
 
     ListNode l1 = new ListNode(3);

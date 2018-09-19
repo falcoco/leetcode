@@ -7,6 +7,8 @@ package BinaryTreeTilt;
  * @create: 2018-09-17 11:51
  **/
 
+import utils.TreeNode;
+
 /**
  * Given a binary tree, return the tilt of the whole tree.
 
