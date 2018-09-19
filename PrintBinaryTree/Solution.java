@@ -7,6 +7,8 @@ package PrintBinaryTree;
  * @create: 2018-09-17 14:41
  **/
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -56,49 +58,41 @@ import java.util.List;
  */
 class Solution {
   public static List<List<String>> printTree(TreeNode root) {
+    int depth = maxDepth(root);
+    int length = (int) Math.pow(2, depth) - 1;
     List<List<String>> result = new LinkedList<>();
     if (root != null){
-      int depth = maxDepth(root);
-      int length = 2^(depth - 1);
-      for (int i = 1; i <= length; i++) {
-        List<String> leaves = new LinkedList<>();
-        result.add(getFloorLeaves(root, i, leaves, 0));
+      for (int i = 1; i <= depth; i++) {
+        String []leaves = new String[length];
+        String[] floor = getFloorLeaves(root, i, leaves, 0, length / 2, length, depth);
+        for (int j = 0; j < length; j++) {
+          if (floor[j] == null){
+            // test string
+            floor[j] = "\"\"";
+            // submit string
+            floor[j] = "\"\"";
+          }
+        }
+        List<String> convertedFloor = Arrays.asList(floor);
+        result.add(convertedFloor);
       }
     }
     return result;
   }
 
 
-  private static List<String> getFloorLeaves(TreeNode root, Integer depth, List<String> leaves, Integer currentDepth){
-    while (root != null){
-      int triggerCount = 0;
+  private static String[] getFloorLeaves(TreeNode root, Integer depth, String[] leaves, Integer currentDepth, Integer index, Integer length, int treeDepth){
+    if (root != null){
       currentDepth++;
       TreeNode left = root.left;
       TreeNode right = root.right;
-      for (int i = 0; i < currentDepth; i++) {
-        triggerCount += 2^i;
-      }
       if (currentDepth == depth){
-        if (left != null){
-          leaves.add(String.valueOf(left.val));
-        }else {
-          leaves.add("");
-        }
-        if (right != null){
-          leaves.add(String.valueOf(right.val));
-        }
+          leaves[index] = String.valueOf(root.val);
       }
-      leaves = getFloorLeaves(left, depth, leaves, currentDepth);
-      leaves = getFloorLeaves(right, depth, leaves, currentDepth);
-    }
-    if (root == null){
-      
+      leaves = getFloorLeaves(left, depth, leaves, currentDepth, (int) (index - Math.pow(2,(treeDepth - currentDepth - 1))), length, treeDepth);
+      leaves = getFloorLeaves(right, depth, leaves, currentDepth, (int) (index + Math.pow(2,(treeDepth - currentDepth - 1))), length, treeDepth);
     }
     return leaves;
-  }
-
-  private static int getDepth(TreeNode root, TreeNode target){
-
   }
 
   private static int maxDepth(TreeNode root){
@@ -113,5 +107,20 @@ class Solution {
   }
 
   public static void main(String[] args) {
+    TreeNode root = new TreeNode(1);
+    root.left = new TreeNode(2);
+    root.right = new TreeNode(5);
+    root.left.left = new TreeNode(3);
+    root.left.left.left = new TreeNode(4);
+
+//    TreeNode root = new TreeNode(1);
+//    root.left = new TreeNode(2);
+//    root.left.right = new TreeNode(4);
+//    root.right = new TreeNode(3);
+
+    List<List<String>> result = printTree(root);
+    for (int i = 0; i < result.size(); i++) {
+      System.out.println(result.get(i));
+    }
   }
 }

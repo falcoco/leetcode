@@ -55,8 +55,8 @@ package MinimumNumberofRefuelingStops;
 class Solution {
   public static int minRefuelStops(int target, int startFuel, int[][] stations) {
     int stops = 0;
-
     return stops;
+
   }
 
   public static void main(String[] args) {
