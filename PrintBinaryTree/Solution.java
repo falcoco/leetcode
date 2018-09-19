@@ -70,7 +70,7 @@ class Solution {
             // test string
             floor[j] = "\"\"";
             // submit string
-            floor[j] = "\"\"";
+            // floor[j] = "";
           }
         }
         List<String> convertedFloor = Arrays.asList(floor);
