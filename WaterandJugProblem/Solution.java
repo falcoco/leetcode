@@ -26,8 +26,6 @@ class Solution {
         int difference = x - y > 0 ? x-y:y-x;
         int bigger = x - y > 0 ? x:y;
         int smaller = x - y > 0 ? x:y;
-
-
         return isSucess;
     }
 
