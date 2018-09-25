@@ -25,14 +25,10 @@ class Solution {
       if (maxIndex > 0) {
         int[] leftSubNums = Arrays.copyOfRange(nums, 0, maxIndex);
         newNode.left = constructMaximumBinaryTree(leftSubNums);
-      }else {
-
       }
       if (maxIndex < nums.length) {
         int[] rightSubNums = Arrays.copyOfRange(nums, maxIndex+1, nums.length);
         newNode.right = constructMaximumBinaryTree(rightSubNums);
-      }else {
-
       }
     }
     return newNode;
