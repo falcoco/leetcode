@@ -6,10 +6,8 @@ package JewelsAndStones;
  * @author: chuangheng.yang
  * @create: 2018-11-12 10:00
  **/
-
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Map.Entry;
 
 /**
  * You're given strings J representing the types of stones that are jewels, and S representing the stones you have.  Each character in S is a type of stone you have.  You want to know how many of the stones you have are also jewels.
@@ -30,7 +28,7 @@ import java.util.Map.Entry;
  The characters in J are distinct.
  */
 class Solution {
-  public static int numJewelsInStones(String J, String S) {
+  public int numJewelsInStones(String J, String S) {
     Map<Character, Integer> resultMap = new HashMap<>();
     char[] jewelTypes = J.toCharArray();
     int jewels = 0;
@@ -47,7 +45,10 @@ class Solution {
   }
 
   public static void main(String[] args) {
-    int jewels = numJewelsInStones("aA", "aAAbbbb");
+    long begin = System.currentTimeMillis();
+    int jewels = new Solution().numJewelsInStones("aA", "aAAbbbb");
+    long end = System.currentTimeMillis();
+    System.out.println("Time used: "+ (end-begin) + " ms");
     System.out.println(jewels);
   }
 }
