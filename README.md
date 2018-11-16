@@ -1,6 +1,4 @@
 # LeetCode practice 
-
-## Questions
 | No.  | Title       | Question      | Solution|
 | ---- | ----------- | ------------- | ------- |
 |2|Add Two Numbers|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | [Java](https://github.com/falcoe/leetcode/blob/master/AddTwoNumbers/AddTwoNumbers.java)|

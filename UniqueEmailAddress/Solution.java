@@ -46,7 +46,6 @@ class Solution {
     Map<String, Integer> validEmails = new HashMap<>();
     for (int i = 0; i < emails.length; i++) {
       int atPosition = emails[i].indexOf("@");
-      StringBuilder stringBuilder = new StringBuilder();
       String name = "";
       String domain = emails[i].substring(atPosition);
       if (emails[i].indexOf("+") > 0) {
