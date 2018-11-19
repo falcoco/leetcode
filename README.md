@@ -20,4 +20,5 @@
 |804|Unique Morse Code Words|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words)|[Java](https://github.com/falcoe/leetcode/blob/master/UniqueMorseCodeWords/Solution.java)|
 |871|Minimum Number of Refueling Stops|[Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops)|To besloved|
 |897|Increasing Order Search Tree|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree)|[Java](https://github.com/falcoe/leetcode/blob/master/IncreasingOrderSearchTree/Solution.java)|
+|905|Sort Array By Parity|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity)|[Java](https://github.com/falcoe/leetcode/blob/master/SortArrayByParity/Solution.java)|
 |929|Unique Email Addresses|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses)|[Java](https://github.com/falcoe/leetcode/blob/master/UniqueEmailAddress/Solution.java)|
