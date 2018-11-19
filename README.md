@@ -17,6 +17,7 @@
 |709|To Lower Case|[To Lower Case](https://leetcode.com/problems/to-lower-case)|[Java](https://github.com/falcoe/leetcode/blob/master/ToLowerCase/Solution.java)|
 |771|Jewels and Stones|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones)|[Java](https://github.com/falcoe/leetcode/blob/master/JewelsAndStones/Solution.java)|
 |795|Number of Subarrays with Bounded Maximum|[Number of Subarrays with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum)|[Java](https://github.com/falcoe/leetcode/blob/master/NumberofSubarrayswithBoundedMaximum/Solution.java)|
+|804|Unique Morse Code Words|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words)|[Java](https://github.com/falcoe/leetcode/blob/master/UniqueMorseCodeWords/Solution.java)|
 |871|Minimum Number of Refueling Stops|[Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops)|To besloved|
 |897|Increasing Order Search Tree|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree)|[Java](https://github.com/falcoe/leetcode/blob/master/IncreasingOrderSearchTree/Solution.java)|
 |929|Unique Email Addresses|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses)|[Java](https://github.com/falcoe/leetcode/blob/master/UniqueEmailAddress/Solution.java)|
