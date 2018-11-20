@@ -25,6 +25,7 @@
 |795|Number of Subarrays with Bounded Maximum|[Number of Subarrays with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum)|[Java](https://github.com/falcoe/leetcode/blob/master/NumberofSubarrayswithBoundedMaximum/Solution.java)|
 |804|Unique Morse Code Words|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words)|[Java](https://github.com/falcoe/leetcode/blob/master/UniqueMorseCodeWords/Solution.java)|
 |832|Flipping an Image|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[Java](https://github.com/falcoe/leetcode/blob/master/FlippingAnImage/Solution.java)|
+|852|Peak Index in a Mountain Array|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array)|[Java](https://github.com/falcoe/leetcode/blob/master/PeakIndexInAMountainArray/Solution.java)|
 |871|Minimum Number of Refueling Stops|[Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops)|To besloved|
 |897|Increasing Order Search Tree|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree)|[Java](https://github.com/falcoe/leetcode/blob/master/IncreasingOrderSearchTree/Solution.java)|
 |905|Sort Array By Parity|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity)|[Java](https://github.com/falcoe/leetcode/blob/master/SortArrayByParity/Solution.java)|
