@@ -10,6 +10,7 @@
 |365|Water and Jug Problem|[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem)|To be solved|
 |409|Longest Palindrome|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome)|[Java](https://github.com/falcoe/leetcode/blob/master/LongestPalindrome/Solution.java)|
 |461|Hamming Distance|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Java](https://github.com/falcoe/leetcode/blob/master/HammingDistance/Solution.java)|
+|561|Array Partition I|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Java](https://github.com/falcoe/leetcode/blob/master/ArrayPartitionI/Solution.java)|
 |563|Binary Tree Tilt|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt) | [Java](https://github.com/falcoe/leetcode/blob/master/BinaryTreeTilt/Solution.java)|
 |595|Big Countries|[Big Countries](https://leetcode.com/problems/big-countries)|[SQL](https://github.com/falcoe/leetcode/blob/master/BigCountries/Solution.sql)|
 |617|Merge Two Binary Trees|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[Java](https://github.com/falcoe/leetcode/blob/master/MergeTwoBinaryTrees/Solution.java)|
