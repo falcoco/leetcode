@@ -13,6 +13,7 @@
 |563|Binary Tree Tilt|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt) | [Java](https://github.com/falcoe/leetcode/blob/master/BinaryTreeTilt/Solution.java)|
 |595|Big Countries|[Big Countries](https://leetcode.com/problems/big-countries)|[SQL](https://github.com/falcoe/leetcode/blob/master/BigCountries/Solution.sql)|
 |617|Merge Two Binary Trees|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[Java](https://github.com/falcoe/leetcode/blob/master/MergeTwoBinaryTrees/Solution.java)|
+|627|Swap Salary|[Swap Salary](https://leetcode.com/problems/swap-salary/)|[SQL](https://leetcode.com/problems/merge-two-binary-trees/)|[Java](https://github.com/falcoe/leetcode/blob/master/SwapSalary/Solution.sql)|
 |654|Maximum Binary Tree|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree)|[Java](https://github.com/falcoe/leetcode/blob/master/MaximumBinaryTree/Solution.java)|
 |655|Print Binary Tree|[Print Binary Tree](https://leetcode.com/problems/print-binary-tree)|[Java](https://github.com/falcoe/leetcode/blob/master/PrintBinaryTree/Solution.java)|
 |657|Robot Return to Origin|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin)|[Java](https://github.com/falcoe/leetcode/blob/master/RobotReturntoOrigin/Solution.java)|
