@@ -21,6 +21,7 @@
 |686|Repeated String Match|[Repeated String Match](https://leetcode.com/problems/repeated-string-match)|To be Solved|
 |709|To Lower Case|[To Lower Case](https://leetcode.com/problems/to-lower-case)|[Java](https://github.com/falcoe/leetcode/blob/master/ToLowerCase/Solution.java)|
 |728|Self Dividing Numbers|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)|[Java](https://github.com/falcoe/leetcode/blob/master/SelfDividingNumbers/Solution.java)|
+|754|Reach a Number|[Reach a Number](https://leetcode.com/problems/reach-a-number/)|[Java](https://github.com/falcoe/leetcode/blob/master/ReachANumber/Solution.java)|
 |771|Jewels and Stones|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones)|[Java](https://github.com/falcoe/leetcode/blob/master/JewelsAndStones/Solution.java)|
 |795|Number of Subarrays with Bounded Maximum|[Number of Subarrays with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum)|[Java](https://github.com/falcoe/leetcode/blob/master/NumberofSubarrayswithBoundedMaximum/Solution.java)|
 |804|Unique Morse Code Words|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words)|[Java](https://github.com/falcoe/leetcode/blob/master/UniqueMorseCodeWords/Solution.java)|
