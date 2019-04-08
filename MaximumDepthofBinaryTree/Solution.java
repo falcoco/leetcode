@@ -39,53 +39,85 @@ import utils.TreeNode;
  * }
  */
 class Solution {
-  private static int depth = 1;
-  public static int maxDepth(TreeNode root) {
-    if (root == null){
-      return 0;
+//  private static int depth = 1;
+//  public static int maxDepth(TreeNode root) {
+//
+//    if (root == null){
+//      return 0;
+//    }
+//    havaSon(root);
+//    return depth;
+//  }
+//
+//  public static int havaSon(TreeNode root){
+//
+//    TreeNode leftChild;
+//    TreeNode rightChild;
+//
+//    int exist = 0;
+//
+//    if(root != null){
+//      leftChild = root.left;
+//      rightChild = root.right;
+//      if (leftChild != null || rightChild != null){
+////        System.out.println("Current root node is : "+root.val);
+//        if (leftChild != null){
+//          System.out.println("Left node is : "+leftChild.val);
+//        }
+//        if (rightChild != null){
+//          System.out.println("Right node is : "+rightChild.val);
+//        }
+//        depth ++;
+//      }else{
+//        return exist;
+//      }
+//      if (leftChild != null){
+//        depth += havaSon(leftChild);
+////        System.out.println("Left child node is : "+leftChild.val);
+//        exist = 1;
+//      }
+//      if (rightChild != null){
+//        depth += havaSon(rightChild);
+////        System.out.println("Left child node is : "+rightChild.val);
+//        exist = 1;
+//      }
+//    }
+//    return exist;
+//  }
+
+    public static int maxDepth(TreeNode root) {
+      if (root == null){
+        return 0;
+      }else {
+        return 1 + findMaxDepth(root);
+      }
     }
-    havaSon(root);
-    return depth;
-  }
+    public static int findMaxDepth(TreeNode root){
+      // mark the depth of current node
+      int nodeDepth = 0;
 
-  public static int havaSon(TreeNode root){
-
-    TreeNode leftChild;
-    TreeNode rightChild;
-
-    int exist = 0;
-
-    if(root != null){
-      leftChild = root.left;
-      rightChild = root.right;
-      if (leftChild != null || rightChild != null){
-//        System.out.println("Current root node is : "+root.val);
-        if (leftChild != null){
-          System.out.println("Left node is : "+leftChild.val);
+      if (root == null){
+        return 0;
+      }
+      else {
+        int leftDepth = 0;
+        int rightDepth = 0;
+        if (root.left != null){
+          leftDepth ++;
+          leftDepth += findMaxDepth(root.left);
         }
-        if (rightChild != null){
-          System.out.println("Right node is : "+rightChild.val);
+        if (root.right != null){
+          rightDepth ++;
+          rightDepth += findMaxDepth(root.right);
         }
-        depth ++;
-      }else{
-        return exist;
+        nodeDepth += leftDepth > rightDepth ? leftDepth : rightDepth;
       }
-      if (leftChild != null){
-        depth += havaSon(leftChild);
-//        System.out.println("Left child node is : "+leftChild.val);
-        exist = 1;
-      }
-      if (rightChild != null){
-        depth += havaSon(rightChild);
-//        System.out.println("Left child node is : "+rightChild.val);
-        exist = 1;
-      }
+      return nodeDepth;
     }
-    return exist;
-  }
 
   public static void main(String[] args) {
-    TreeNode root = new TreeNode(0);
+      TreeNode root = null;
+//    TreeNode root = new TreeNode(0);
 //    root.left = new TreeNode(9);
 //    root.right = new TreeNode(20);
 //    root.right.left = new TreeNode(15);

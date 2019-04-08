@@ -4,7 +4,7 @@
 |2|Add Two Numbers|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | [Java](https://github.com/falcoe/leetcode/blob/master/AddTwoNumbers/AddTwoNumbers.java)|
 |3|Longest Substring Without Repeating Characters|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[Java](https://github.com/falcoe/leetcode/blob/master/LongestSubstringWithoutRepeatingCharacters/LongestSubstring.java)|
 |4|Median of Two Sorted Arrays|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)|To be sloved|
-|104|Maximum Depth of Binary Tree|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)|To be solved|
+|104|Maximum Depth of Binary Tree|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)|[Java](https://github.com/falcoe/leetcode/blob/master/MaximumDepthofBinaryTree/Solution.java)|
 |116|Populating Next Right Pointers in Each Node|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node)|[Java](https://github.com/falcoe/leetcode/blob/master/PopulatingNextRightPointersinEachNode/Solution.java)|
 |399|Evaluate Division|[Evaluate Division](https://leetcode.com/problems/evaluate-division)|[Java](https://github.com/falcoe/leetcode/blob/master/EvaluateDivision/Solution.java)|
 |365|Water and Jug Problem|[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem)|To be solved|
