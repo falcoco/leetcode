@@ -4,6 +4,7 @@
 |2|Add Two Numbers|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | [Java](https://github.com/falcoe/leetcode/blob/master/AddTwoNumbers/AddTwoNumbers.java)|
 |3|Longest Substring Without Repeating Characters|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[Java](https://github.com/falcoe/leetcode/blob/master/LongestSubstringWithoutRepeatingCharacters/LongestSubstring.java)|
 |4|Median of Two Sorted Arrays|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)|To be sloved|
+|5|Longest Palindromic Substring|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)|[Java](https://github.com/falcoe/leetcode/blob/master/LongestPalindromicSubstring/Solution.java)|
 |104|Maximum Depth of Binary Tree|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)|[Java](https://github.com/falcoe/leetcode/blob/master/MaximumDepthofBinaryTree/Solution.java)|
 |116|Populating Next Right Pointers in Each Node|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node)|[Java](https://github.com/falcoe/leetcode/blob/master/PopulatingNextRightPointersinEachNode/Solution.java)|
 |300|Longest Increasing Subsequence|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[Java](https://github.com/falcoe/leetcode/blob/master/LongestIncreasingSubsequence/Solution.java)|
