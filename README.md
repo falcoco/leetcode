@@ -6,6 +6,7 @@
 |4|Median of Two Sorted Arrays|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)|To be sloved|
 |104|Maximum Depth of Binary Tree|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)|[Java](https://github.com/falcoe/leetcode/blob/master/MaximumDepthofBinaryTree/Solution.java)|
 |116|Populating Next Right Pointers in Each Node|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node)|[Java](https://github.com/falcoe/leetcode/blob/master/PopulatingNextRightPointersinEachNode/Solution.java)|
+|300|Longest Increasing Subsequence|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[Java](https://github.com/falcoe/leetcode/blob/master/LongestIncreasingSubsequence/Solution.java)|
 |399|Evaluate Division|[Evaluate Division](https://leetcode.com/problems/evaluate-division)|[Java](https://github.com/falcoe/leetcode/blob/master/EvaluateDivision/Solution.java)|
 |365|Water and Jug Problem|[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem)|To be solved|
 |409|Longest Palindrome|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome)|[Java](https://github.com/falcoe/leetcode/blob/master/LongestPalindrome/Solution.java)|
