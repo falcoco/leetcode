@@ -122,6 +122,36 @@ class AddTwoNumbers {
     return head;
   }
 
+
+  public static ListNode addTwoNumbers2(ListNode l1, ListNode l2){
+    ListNode head = null;
+    ListNode tail = head;
+    int carry = 0;
+    while (l1 != null || l2 != null){
+      int l1Value = l1 != null ? l1.val : 0;
+      int l2Value = l2 != null ? l2.val : 0;
+      int sum = l1Value + l2Value + carry;
+      ListNode current = new ListNode(sum % 10);
+      carry = sum / 10;
+
+      l1 = l1 == null ? null : l1.next;
+      l2 = l2 == null ? null : l2.next;
+
+      if (head == null){
+        head = current;
+        tail = head;
+      }else {
+        tail.next = current;
+        tail = tail.next;
+      }
+    }
+    if (carry != 0){
+      tail.next = new ListNode(carry);
+    }
+
+    return head;
+  }
+
   public static void main(String[] args) {
 //        utils.ListNode l1 = new utils.ListNode(2);
 //        utils.ListNode l1Cursor = l1;
@@ -147,9 +177,9 @@ class AddTwoNumbers {
     l2Cursor.next = new ListNode(2);
     l2Cursor = l2Cursor.next;
 
-    ListNode head = addTwoNumbers(l1, l2);
+    ListNode head = addTwoNumbers2(l1, l2);
     while (head != null) {
-      System.out.println(head.val);
+      System.out.print(head.val +"  ");
       head = head.next;
     }
   }
