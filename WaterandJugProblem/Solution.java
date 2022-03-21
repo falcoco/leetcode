@@ -12,7 +12,7 @@ package WaterandJugProblem;
  * Pour water from one jug into another till the other jug is completely full or the first jug itself is empty.
  * Example 1: (From the famous "Die Hard" example)
  *
- * Input: x = 3, y = 5, z = 4
+ * Input: x = 3, y = 5, z = 4 
  * Output: True
  * Example 2:
  *
@@ -20,12 +20,13 @@ package WaterandJugProblem;
  * Output: False
  */
 class Solution {
-    public static boolean canMeasureWater(int x, int y, int z) {
+    public static boolean canMeasureWater(int jugA, int jugB, int target) {
         boolean isSucess = false;
 
-        int difference = x - y > 0 ? x-y:y-x;
-        int bigger = x - y > 0 ? x:y;
-        int smaller = x - y > 0 ? x:y;
+        int difference = jugA - jugB > 0 ? jugA - jugB : jugB - jugA;
+        int bigger = jugA - jugB > 0 ? jugA : jugB;
+        int smaller = jugA - jugB > 0 ? jugB : jugA;
+
         return isSucess;
     }
 
